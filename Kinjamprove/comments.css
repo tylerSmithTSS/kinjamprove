@@ -1,0 +1,108 @@
+div.kinjamprove-button-container {
+	margin: auto;
+}
+
+a.kinjamprove-button {
+/* 	color: rgb(131, 209, 120); */
+	color: rgb(101, 229, 120);
+	font-weight: bold; 
+	font-size: 25px;
+	border-style: solid;
+	border-radius: 50px;
+	border-width: 2px;
+	padding: 10px;
+	text-decoration-line: none;
+}
+
+a.kinjamprove-button:hover {
+	color: rgb(64, 220, 76);
+	border-color: rgb(101, 229, 120);
+}
+
+section.js_discussion-region[kinjamprove="on"] article[depth] {
+	position: relative; 
+	left: 175px; 
+	width: 461px; 
+} 
+
+section.js_discussion-region[kinjamprove="on"] article[depth="0"] { 
+	left: 0px; 
+	width: 636px; 
+} 
+
+section.js_discussion-region[kinjamprove="on"] article[depth="1"] {  
+	left: 35px; 
+	width: 601px; 
+} 
+
+section.js_discussion-region[kinjamprove="on"] article[depth="2"] {   
+	left: 70px; 
+	width: 566px; 
+} 
+
+section.js_discussion-region[kinjamprove="on"] article[depth="3"] { 
+	left: 105px; 
+	width: 531px; 
+} 
+
+section.js_discussion-region[kinjamprove="on"] article[depth="4"] { 
+	left: 140px; 
+	width: 496px; 
+} 
+
+a.collapse-thread-button {
+	color: #8F939D; 
+	font-size: 2em; 
+	position: relative;
+	z-index: 1;
+	font-weight: normal;
+	display: none;
+	margin-left: 10px;
+	margin-right: 80px;
+	float: right;
+	text-decoration-line: none;
+}
+
+a.collapse-thread-button:hover {
+	color: #535868;
+	text-decoration-line: none;
+}
+ 
+.js_discussion-region[kinjamprove="on"] .commentlist--depth-1 {
+	margin-left: 0px;
+}
+ 
+/* 
+ul[data-analytics-target="groupChat"], 
+ul .commentlist .commentlist--surface .js_commentlist--surface .commentlist--depth-1 {
+	margin-left: 0px;
+}
+ */
+
+span.published.updated {
+	font-weight: normal;
+}
+
+.reply {
+	padding: 10px 0;
+}
+
+.reply__tools {
+	margin-top: 10px;
+}
+
+.reply--unapproved .avatar, 
+.reply--unapproved .reply__byline, 
+.reply--unapproved .reply__content, 
+.reply--unapproved .reply__publish-time, 
+.reply--unapproved .reply__tools {
+    opacity: 1.0;
+}
+
+.reply--unapproved .avatar img {
+	filter: none;
+}
+
+.reply__publish-time {
+	line-height: 1.2em;
+}
