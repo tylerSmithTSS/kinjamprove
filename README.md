@@ -13,7 +13,8 @@ Adds a 'Kinjamprove!' button to the top of every Kinja comments section. This bu
   -'Un-grays' pending comments so that they will appear the same as approved replies, although they'll still retain their label denoting them as pending.
 
 This extension works on all Kinja sites, including: 
- 	avclub.com
+
+ 	avclub.com	
 	deadspin.com
 	gizmodo.com
 	jalopnik.com
@@ -23,4 +24,5 @@ This extension works on all Kinja sites, including:
 	lifehacker.com
 	splinternews.com
 	theroot.com
+	
 ...and all subdomains of any of these sites.
