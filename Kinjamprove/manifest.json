@@ -25,12 +25,12 @@
 			],
 
 			"js": [ "jquery-3.2.1.min.js", "mutation-summary-minified.js", "CommentClass.js", "kinjamprove.js" ],
+			"css": [ "comments.css" ],
 			"run_at": "document_end"
 		}
 	],
 
 	"permissions": [
-		"declarativeContent",
 		"activeTab",
 		"*://*.kinja.com/*",
 		"*://*.avclub.com/*",
