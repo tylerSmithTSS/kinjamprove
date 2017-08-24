@@ -3,12 +3,12 @@
 	"manifest_version": 2,
 	"description": "View any Kinja comments sections with threaded replies & other improvements at the click of a button. Never click \"Show More\" again!",
 	"version": "0.0.0.32",
-	
-	
-	"icons": { 
-		"128": "icons/kinjamproveLogo.png" 
+
+
+	"icons": {
+		"128": "icons/kinjamproveLogo.png"
 	},
-	
+
 	"content_scripts": [
 		{
 			"matches": [
@@ -23,14 +23,14 @@
 				"*://*.theroot.com/*",
 				"*://*.splinternews.com/*"
 			],
-			
+
 			"js": [ "jquery-3.2.1.min.js", "mutation-summary-minified.js", "CommentClass.js", "kinjamprove.js" ],
+			"css": [ "comments.css" ],
 			"run_at": "document_end"
 		}
 	],
-	
+
 	"permissions": [
-		"declarativeContent",
 		"activeTab",
 		"*://*.kinja.com/*",
 		"*://*.avclub.com/*",
@@ -43,7 +43,7 @@
 		"*://*.theroot.com/*",
 		"*://*.splinternews.com/*"
 	],
-	
+
 	"web_accessible_resources": ["mutation-summary-minified.js", "CommentClass.js", "comments.css"]
 }
 
