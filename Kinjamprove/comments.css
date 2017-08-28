@@ -1,6 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+.editor .editor-inner blockquote,
+.editor .editor-inner dl,
+.editor .editor-inner ol,
+.editor .editor-inner p,
+.editor .editor-inner ul,
+.post-content blockquote,
+.post-content dl,
+.post-content ol,
+.post-content p,
+.post-content ul,
+.curation-main-container .curation__wrapper--whoomp .featured-items .featured-item .curation-item-placeholder--sub-item-4 .headline__excerpt,
+.postlist__item .excerpt,
+.postlist__item .excerpt p {
+	font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif !important;
+}
+/* 
+.pe_newlayout .sidebar {
+	display: none !important;
+}
+ */
+.pe_newlayout .page {
+	justify-content: center !important;
+}
+.pe_newlayout .main {
+	border-left: none !important;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.headline,
+.headline a,
+.headline a:active,
+.headline a:focus,
+.headline a:hover,
+.above-headline-image .featured-post__caption,
+.above-headline-image .video-embed__caption,
+.above-headline-image figcaption,
+.editor .editor-inner .featured-post__caption,
+.editor .editor-inner .video-embed__caption,
+.editor .editor-inner figcaption,
+.featured-post__asset .featured-post__caption,
+.featured-post__asset .video-embed__caption,
+.featured-post__asset figcaption,
+.post-content .featured-post__caption,
+.post-content .video-embed__caption,
+.post-content figcaption,
+.reply__byline,
+a.reply__count span,
+a.reply__link span,
+.reply .unapproved-msg,
+.reply__pending-label,
+.reply__publish-time,
+.reply__to-author,
+.button,
+button,
+.reply-filter,
+.reply-footer-bar,
+.reply__flagged-indicator,
+.reply__recommend .like-count,
+.reply__tools,
+.unapproved-filter .button-container a,
+a.button--pagination,
+a.commentlist__filter-button,
+a.reply-to-post--mobile,
+.storytype__filled .storytype-type,
+.storytype__filled .storytype-vertical,
+.storytype__outlined .storytype-type,
+.storytype__outlined .storytype-vertical,
+.storytype__text .storytype-type,
+.storytype__text .storytype-vertical,
+.reply__content p {
+	font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif !important;
+}
+.reply__content p {
+	font-weight: normal !important;
+	line-height: 1.5 !important;
+}
+.avatar img,
+img.avatar:not(.blog-avatar) {
+	border-radius: 3px !important;
+}
+.replies-wrapper .reply {
+	border-top: none !important;
+}
+.reply {
+	padding: 5px 0 15px !important;
+}
+.reply__header>.avatar img {
+	width: 36px !important;
+	height: 36px !important;
+}
+.reply__header>.avatar {
+	margin-right: 12px !important;
+}
+
+.replies-wrapper .reply__content {
+	padding-left: 48px !important;
+}
+.reply__content,
+.reply--depth-0>.reply__content {
+	width: 100% !important;
+	flex: none !important;
+	margin-bottom: 5px !important;
+	max-width: none !important;
+}
+.reply__content p,
+.reply__content blockquote {
+	margin: 0 !important;
+}
+.reply__sidebar {
+	text-align: left !important;
+	position: static !important;
+	width: auto !important;
+	margin-left: 48px !important;
+	line-height: 24px !important;
+	align-self: center !important;
+	height: auto !important;
+}
+.svg-reply-right {
+	display: none !important;
+}
+.reply__tools {
+	flex: none !important;
+	margin-top: 0 !important;
+	font-size: 13px !important;
+	align-self: center !important;
+	line-height: 24px !important;
+}
+.reply__recommend {
+	height: auto !important;
+	margin-top: 0 !important;
+}
+.reply__recommend .like-count {
+	font-size: 13px !important;
+	margin-top: 0px !important;
+	display: inline !important;
+	line-height: 24px !important;
+}
+.reply__link {
+	margin-left: 0 !important;
+}
+.reply__tools.js_reply-tools:before {
+	content: "•";
+	margin: 0 5px;
+	color: #999;
+}
+
+.replies-wrapper .commentlist--depth-1 {
+	margin-left: 48px !important;
+}
+.reply__recommend .svg-icon.giant {
+	width: 16px !important;
+	height: 16px !important;
+	margin-right: 5px !important;
+}
+.reply__recommend .like-count,
+.reply__tools.js_reply-tools:before,
+.reply__recommend .svg-icon,
+.reply__link {
+	vertical-align: middle !important;
+}
+section.js_discussion-region[kinjamprove="on"] article[depth] {
+	margin-left: 192px !important;
+}
+section.js_discussion-region[kinjamprove="on"] article[depth="0"] {
+	margin-left: 0px !important;
+}
+section.js_discussion-region[kinjamprove="on"] article[depth="1"] {
+	margin-left: 48px !important;
+}
+section.js_discussion-region[kinjamprove="on"] article[depth="2"] {
+	margin-left: 96px !important;
+}
+section.js_discussion-region[kinjamprove="on"] article[depth="3"] {
+	margin-left: 144px !important;
+}
+section.js_discussion-region[kinjamprove="on"] article[depth="4"] {
+	margin-left: 192px !important;
+}
+.replies-wrapper,
+.discussion-header {
+	max-width: none !important;
+}
+
+
 div.kinjamprove-button-container {
 	margin: auto;
 }
+
+article[depth="0"]:not([collapsed="true"]) > header > .avatar img {
+	width: 48px !important;
+	height: 48px !important;
+}
+
+
+.reply--unapproved .avatar, 
+.reply--unapproved .reply__byline, 
+.reply--unapproved .reply__content, 
+.reply--unapproved .reply__publish-time, 
+.reply--unapproved .reply__tools {
+    opacity: 1.0;
+}
+
+.reply--unapproved .avatar img {
+	filter: none;
+}
+
 
 a.kinjamprove-button {
 /* 	color: rgb(131, 209, 120); */
@@ -19,40 +229,30 @@ a.kinjamprove-button:hover {
 	border-color: rgb(101, 229, 120);
 }
 
-section.js_discussion-region[kinjamprove="on"] article[depth] {
-	position: relative; 
-	left: 175px; 
-	width: 461px; 
-} 
+/* 
+reply__header>.post-dropdown-ct {
+	right: 50px;
+}
+ */
+ 
+ .reply__header {
+	margin-bottom: 5px; !important;
+	padding-bottom: 0px !important;	
+}
+ 
+ .reply__content.js_reply-content.post-content.blurable.whitelisted-links {
+ 	margin-top: 0px !important;	
+	padding-bottom: 0px !important;
+ }
 
-section.js_discussion-region[kinjamprove="on"] article[depth="0"] { 
-	left: 0px; 
-	width: 636px; 
-} 
-
-section.js_discussion-region[kinjamprove="on"] article[depth="1"] {  
-	left: 35px; 
-	width: 601px; 
-} 
-
-section.js_discussion-region[kinjamprove="on"] article[depth="2"] {   
-	left: 70px; 
-	width: 566px; 
-} 
-
-section.js_discussion-region[kinjamprove="on"] article[depth="3"] { 
-	left: 105px; 
-	width: 531px; 
-} 
-
-section.js_discussion-region[kinjamprove="on"] article[depth="4"] { 
-	left: 140px; 
-	width: 496px; 
-} 
+.reply__to-author {
+	color: rgb(170, 170, 170);
+}
 
 a.collapse-thread-button {
 	color: #8F939D; 
-	font-size: 2em; 
+	font-size: 20px;
+	line-height: 5px; 
 	position: relative;
 	z-index: 1;
 	font-weight: normal;
@@ -68,41 +268,55 @@ a.collapse-thread-button:hover {
 	text-decoration-line: none;
 }
  
-.js_discussion-region[kinjamprove="on"] .commentlist--depth-1 {
-	margin-left: 0px;
-}
- 
-/* 
-ul[data-analytics-target="groupChat"], 
-ul .commentlist .commentlist--surface .js_commentlist--surface .commentlist--depth-1 {
-	margin-left: 0px;
-}
- */
+a.parent-comment-link {
+	color: rgb(170, 170, 170);
+} 
 
-span.published.updated {
-	font-weight: normal;
-}
-
-.reply {
-	padding: 10px 0;
+.parent-comment-tooltip {
+	position: absolute;
+	z-index: 1000; 
+	background-color: white; 
+	margin-bottom: 0; 
+	border-radius: 4px; 
+	border-color: rgb(101, 229, 120); 
+	border-width: 3px; 
+	border-style: solid;	
+    width: 220px; 
 }
 
-.reply__tools {
-	margin-top: 10px;
+.parent-comment-tooltip > img {
+	width: 36px; 
+	height: 36px; 
+	position: relative; 
+	display: block; 
+	float: left; 
+	border-radius: 4px;
+	margin: 5px;
 }
 
-.reply--unapproved .avatar, 
-.reply--unapproved .reply__byline, 
-.reply--unapproved .reply__content, 
-.reply--unapproved .reply__publish-time, 
-.reply--unapproved .reply__tools {
-    opacity: 1.0;
+.parent-comment-tooltip > div {
+	position: relative;
 }
 
-.reply--unapproved .avatar img {
-	filter: none;
+.parent-comment-tooltip > div > h4,
+.parent-comment-tooltip > div > p {
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 0;
 }
 
-.reply__publish-time {
-	line-height: 1.2em;
+.parent-comment-tooltip > div > h4 {
+	font-size: 1.0rem; 
+	color: black; 
+	margin-top: 4px;
 }
+
+.parent-comment-tooltip > div > p {
+	font-size: 13px; 
+	color: rgb(170, 170, 170);
+	
+}
+
+
+
